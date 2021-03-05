@@ -1,0 +1,189 @@
+{
+  "uid" : "68217be4f9607ab4",
+  "name" : "test_sub_True[get_sub_datas_True1]",
+  "fullName" : "test_calc2_homework.TestCalc2#test_sub_True",
+  "historyId" : "d2db719341395b4138d5abe91f32a0b4",
+  "time" : {
+    "start" : 1614853637095,
+    "stop" : 1614853637096,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1614853636617,
+      "stop" : 1614853636618,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_sub_datas_True",
+    "time" : {
+      "start" : 1614853637092,
+      "stop" : 1614853637093,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "计算两个数 相减差结果",
+      "time" : {
+        "start" : 1614853637095,
+        "stop" : 1614853637095,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断 相减差的数 是否为 float类型 ",
+      "time" : {
+        "start" : 1614853637095,
+        "stop" : 1614853637095,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言 计算结果 等于 预期结果",
+      "time" : {
+        "start" : 1614853637095,
+        "stop" : 1614853637095,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "af57d4d3e8c000c4",
+      "name" : "stdout",
+      "source" : "af57d4d3e8c000c4.txt",
+      "type" : "text/plain",
+      "size" : 92
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1614853638021,
+      "stop" : 1614853638021,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_sub_datas_True::0",
+    "time" : {
+      "start" : 1614853637096,
+      "stop" : 1614853637097,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器:(加减乘除)"
+  }, {
+    "name" : "story",
+    "value" : "测试减法_有效测试用例"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=2)"
+  }, {
+    "name" : "tag",
+    "value" : "sub"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc2_homework"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc2"
+  }, {
+    "name" : "host",
+    "value" : "KD4JP1FBJZM3YKK"
+  }, {
+    "name" : "thread",
+    "value" : "6444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc2_homework"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_sub_datas_True",
+    "value" : "[10000000, 999999, 9000001]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=2)", "sub" ]
+  },
+  "source" : "68217be4f9607ab4.json",
+  "parameterValues" : [ "[10000000, 999999, 9000001]" ]
+}

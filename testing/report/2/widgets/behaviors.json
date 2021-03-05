@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "aa4b9665ecb3f8c9d1b72c00d6e7d281",
+    "name" : "测试计算器:(加减乘除)",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 8
+    }
+  } ]
+}

@@ -1,0 +1,39 @@
+add:
+  datas_true:
+    - [1,1,2]
+    - [100,100,200]
+    - [0.1,0.2,0.3]
+    - [0.1,-0.2,-0.3]
+    - [-1,-1,-2]
+  myid_true:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'fail'
+    - 'negative'
+  datas_false:
+    -
+    -
+    -
+  myid_false:
+div:
+  datas_true:
+    - - 1
+      - 1
+      - 2
+    - - 100
+      - 100
+      - 200
+    - [0.1,0.2,0.3]
+    - [0.1,-0.2,-0.3]
+    - [-1,-1,-2]
+  datas_false:
+    -
+    -
+  myid_true:
+    - 'int'
+    - 'bigint'
+    - 'float'
+    - 'fail'
+    - 'negative'
+  myid_false:

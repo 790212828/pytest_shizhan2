@@ -1,0 +1,78 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_calc_new",
+    "children" : [ {
+      "name" : "TestCalc",
+      "children" : [ {
+        "name" : "test_add[int]",
+        "uid" : "74d10311a7065e2a",
+        "parentUid" : "c72d63ea4e590c4d196d4dd6afbd9255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329230,
+          "stop" : 1614828329231,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 1, 2]" ]
+      }, {
+        "name" : "test_add[bigint]",
+        "uid" : "a5099ac361d34c7e",
+        "parentUid" : "c72d63ea4e590c4d196d4dd6afbd9255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329246,
+          "stop" : 1614828329247,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[100, 100, 200]" ]
+      }, {
+        "name" : "test_add[float]",
+        "uid" : "549711f923ed7002",
+        "parentUid" : "c72d63ea4e590c4d196d4dd6afbd9255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329258,
+          "stop" : 1614828329259,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      }, {
+        "name" : "test_add[fail]",
+        "uid" : "919b8c7d04dea4",
+        "parentUid" : "c72d63ea4e590c4d196d4dd6afbd9255",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614828329271,
+          "stop" : 1614828329274,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, -0.2, -0.3]" ]
+      }, {
+        "name" : "test_add[negative]",
+        "uid" : "e807676fbae63b87",
+        "parentUid" : "c72d63ea4e590c4d196d4dd6afbd9255",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329340,
+          "stop" : 1614828329341,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -1, -2]" ]
+      } ],
+      "uid" : "c72d63ea4e590c4d196d4dd6afbd9255"
+    } ],
+    "uid" : "52d44c545feb0a5b4aac1002936a5c30"
+  } ]
+}

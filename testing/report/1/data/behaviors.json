@@ -1,0 +1,78 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试计算器",
+    "children" : [ {
+      "name" : "测试加法",
+      "children" : [ {
+        "name" : "test_add[int]",
+        "uid" : "74d10311a7065e2a",
+        "parentUid" : "71987810c8f4843f10b89582ae833c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329230,
+          "stop" : 1614828329231,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[1, 1, 2]" ]
+      }, {
+        "name" : "test_add[bigint]",
+        "uid" : "a5099ac361d34c7e",
+        "parentUid" : "71987810c8f4843f10b89582ae833c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329246,
+          "stop" : 1614828329247,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[100, 100, 200]" ]
+      }, {
+        "name" : "test_add[float]",
+        "uid" : "549711f923ed7002",
+        "parentUid" : "71987810c8f4843f10b89582ae833c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329258,
+          "stop" : 1614828329259,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, 0.2, 0.3]" ]
+      }, {
+        "name" : "test_add[fail]",
+        "uid" : "919b8c7d04dea4",
+        "parentUid" : "71987810c8f4843f10b89582ae833c2f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1614828329271,
+          "stop" : 1614828329274,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[0.1, -0.2, -0.3]" ]
+      }, {
+        "name" : "test_add[negative]",
+        "uid" : "e807676fbae63b87",
+        "parentUid" : "71987810c8f4843f10b89582ae833c2f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614828329340,
+          "stop" : 1614828329341,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "[-1, -1, -2]" ]
+      } ],
+      "uid" : "71987810c8f4843f10b89582ae833c2f"
+    } ],
+    "uid" : "d81e305ff02c2e297aa300b5dfb0f8bc"
+  } ]
+}

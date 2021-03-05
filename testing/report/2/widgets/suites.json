@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "5bab2e3bf9a17e0e06063d2d2d15fd50",
+    "name" : "test_calc2_homework",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 14,
+      "skipped" : 0,
+      "passed" : 74,
+      "unknown" : 0,
+      "total" : 91
+    }
+  } ]
+}

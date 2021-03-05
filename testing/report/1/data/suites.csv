@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 04 11:25:29 CST 2021","Thu Mar 04 11:25:29 CST 2021","1","","test_calc_new","TestCalc","","","test_add[float]","
+        实例化计算器的类
+        :return:
+        "
+"failed","Thu Mar 04 11:25:29 CST 2021","Thu Mar 04 11:25:29 CST 2021","3","","test_calc_new","TestCalc","","","test_add[fail]","
+        实例化计算器的类
+        :return:
+        "
+"passed","Thu Mar 04 11:25:29 CST 2021","Thu Mar 04 11:25:29 CST 2021","1","","test_calc_new","TestCalc","","","test_add[int]","
+        实例化计算器的类
+        :return:
+        "
+"passed","Thu Mar 04 11:25:29 CST 2021","Thu Mar 04 11:25:29 CST 2021","1","","test_calc_new","TestCalc","","","test_add[negative]","
+        实例化计算器的类
+        :return:
+        "
+"passed","Thu Mar 04 11:25:29 CST 2021","Thu Mar 04 11:25:29 CST 2021","1","","test_calc_new","TestCalc","","","test_add[bigint]","
+        实例化计算器的类
+        :return:
+        "
